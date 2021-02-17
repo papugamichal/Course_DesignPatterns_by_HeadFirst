@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6_Command.Interfaces
+namespace _6_Command.Externals.Doors
 {
-    public interface ICommand
+    interface IDoor
     {
-        public void Execute();
-        public void Undo();
+        public void Open();
+        public void Close();
     }
 }

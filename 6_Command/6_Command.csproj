@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
+    <PackageReference Include="SmartAnalyzers.CSharpExtensions.Annotations" Version="3.5.0" />
   </ItemGroup>
 
 </Project>
